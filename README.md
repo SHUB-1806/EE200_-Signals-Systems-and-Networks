@@ -7,16 +7,23 @@ The project explores frequency-domain signal processing techniques on both image
 ## Project Structure
 
 ```text
-.
-├── Provided_Material/
-│   ├── Assignment_Statement.pdf
-│   ├── Input_Images/
-│   ├── Input_Audio/
-│   └── Tutorial_Material/
+EE200-Frequency-Domain-Signal-Processing/
 │
-└── My_Solution/
-    ├── Frequency_Mixer/
-    └── Frequency_DeMixer/
+├── README.md                    ← Main repo overview
+│
+├── ProblemStatement/
+│   ├── README.md                ← Assignment description
+│   ├── Basic_image_audio_tut.ipynb
+│   ├── cat_gray.jpg
+│   ├── dog_gray.jpg
+│   └── song_with_2piccolo.wav
+│
+└── Solution/
+    ├── README.md                ← Your approach & results
+    ├── EE200_Practical_Report_240500.pdf
+    ├── Q1_Frequency_Mixer.ipynb
+    ├── Q2_Frequency_Demixer.ipynb
+    └── sound file.wav
 ```
 
 ## Part 1: Frequency Mixer – Beauty and the Blur
